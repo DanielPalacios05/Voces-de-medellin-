@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -25,6 +26,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.gameButton {
+  border: medium solid white;
+  border-radius: 10em;
+  border-width: 0.4em;
+  padding: 1%;
+  font-size: xx-large ;
+  font-weight: bolder;
+  background-color:rgba(245, 245, 245, 0.377);/* background: white; */
+  text-align: center;
+}
+html, body{min-height:100%;}
+body{height:100vh;}
 
 @layer utilities {
   .text-balance {
